@@ -1,0 +1,41 @@
+Dans ce TP, vous allez écrire votre CV en HTML, à l'aide de plusieurs pages Web. Ces différentes pages correspondent à des "rubriques" 
+et sont décrites ci-dessous. Elles seront reliées entre elles par un menu.
+Structure de la page
+À partir de la structure d'une page donnée en cours, 
+    créez une page simple comportant :
+    •	un titre principal contenant votre nom
+    •	un titre de niveau 2 indiquant votre profession
+    •	un bloc de texte présentant un menu, composé
+        o	d'un titre de niveau 2
+        o	des lignes suivantes : "Présentation", "Formation", "Expérience", "Divers"
+    •	Un bloc de texte principal, destiné à contenir les informations présentées dans la page
+À faire : placez des liens sur les lignes du menu, pointant respectivement 
+vers les pages (locales) "index.html", "formation.html", "experience.html", "divers.html".
+
+Ces pages n'existent pas encore, les questions suivantes vont vous permettre de les créer.
+Page de présentation
+    Copiez votre page de structure dans un fichier nommé "index.html". Complétez le bloc principal pour qu'il contienne :
+    •	des paragraphes indiquant votre état civil, votre adresse, etc.
+    •	un paragraphe de description (par exemple, votre devise)
+    •	une photo
+
+Page "formation"
+    Copiez votre page de structure dans un fichier nommé "formation.html". 
+    Complétez le bloc principal pour qu'il contienne une liste indiquant votre formation. 
+        Chaque item de cette liste comportera :
+        •	une date ou période
+        •	l'intitulé de la formation suivie
+
+Page "expérience"
+    Copiez votre page de structure dans un fichier nommé "experience.html".
+    Complétez le bloc principal pour qu'il contienne un tableau indiquant
+    votre expérience professionnelle. 
+        Chaque ligne du tableau comportera :
+        •	une date ou période
+        •	l'intitulé de la position occupée
+        •	le nom de l'entreprise ou organisme
+        
+Page "divers"
+    Copiez votre page de structure dans un fichier nommé "divers.html". 
+    Complétez le bloc principal en laissant libre cours à votre imagination. 
+    La structuration devra toutefois être en accord avec le contenu...
