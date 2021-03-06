@@ -1,0 +1,45 @@
+<html>
+    <head>
+        <title>Les formulaires</title>
+    </head>
+    <body>
+        <form action="reception.html" method="POST">
+            <label>NCIN:</label>
+            <input type="text" name="ncin" value="02345678" maxlength="8">
+            <br>
+            <br>
+            <label>Mot de passe:</label>
+            <input type="password" name="motdepasse" maxlength="8">
+            <br>
+            <label>Civilite</label>
+            <input type="radio" name="civilite" value="Mr" checked>Mr
+            <input type="radio" name="civilite" value="Mme"che>Mme
+            <input type="radio" name="civilite" value="Mlle">Mlle
+            <br>
+            <label>Language Preferes</label>
+            <input type="checkbox" name="lang_java" value="Java">Java
+            <input type="checkbox" name="lang_c++" value="C++">C++
+            <input type="checkbox" name="lang_python" value="Python">Python
+            <br>
+            <label>Ville</label>
+            <select name="liste" size="2">
+                <option>tunis</option>
+                <option>Ben Arous</option>
+                <option selected>Ariana</option>
+                <option>Nabel</option>
+                <option>Sfax</option>
+                <option>Djerba</option>
+            </select>
+            <br>
+            <label >Adresse</label>
+            <textarea name="adresse" cols="20" rows="2">
+Boite postal numero 555
+manouba 
+2020
+            </textarea>
+            <br>
+            <input type="submit" value="Envoyer">
+            <input type="reset" value="Annuler">
+        </form>
+    </body>
+</html>

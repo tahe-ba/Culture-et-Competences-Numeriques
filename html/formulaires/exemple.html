@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <title>
+            Exemple de formulaire
+        </title>
+    </head>
+    <body>
+        <form>
+            <h1>Exemple de formulaire</h1>
+            <label>Entrez votre nom:</label>
+            <input type="text" name="nom">
+            <HR size=1 align=center width="100%">
+            <h2>Cochez la case correspondante a votre cas:</h2>
+            <ul>
+                <li><input type="radio" name="age" value="-18" >Moins de 18 ans</li>
+                <li><input type="radio" name="age" value="18-20" >De 18 à 20 ans</li>
+                <li><input type="radio" name="age" value="+20" >Plus de 20 ans</li>
+            </ul>
+            <h2>Quel est votre sport préféré:</h2>
+            <select name="liste">
+                <option>Baseball</option>
+                <option selected>Footlball</option>
+                <option>Volleyball</option>
+            </select>
+            <HR size=1 align=center width="100%">
+            <h2>Exprimez-vous:</h2>
+            <textarea name="Expression" cols="50" rows="5">
+   A vous
+            </textarea>
+            <br>
+            <input type="submit" value="envoi">
+            <input type="reset" value="annule">
+        </form>
+    </body>
+</html>

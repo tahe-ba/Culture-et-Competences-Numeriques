@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <title>html 5.0</title>
+    </head>
+    <body>
+        <form oninput="x.value=a.value">
+            <fieldset>
+                <legend>Inscription</legend>
+                <label for="cin">CIN:</label><br>
+                <input type="number" min="00000000" max="99999999" maxlength="8"> <br>
+
+                <label for="nom">Nom:</label><br>
+                <input type="text" id="nom" name="nom" value="test"> <br>
+
+                <label for="prenom">Prenom:</label><br>
+                <input type="text" id="nom" name="prenom" value="tester"> <br>
+
+                <label for="adresse">Adresse:</label><br>
+                <input type="text" required id="adresse" name="adresse" placeholder="....." pattern="tunis|ariana|ben arous"> <br>
+
+                <label for="list">Navigateur:</label><br>
+                <input list="nvg"> <br>
+
+                <datalist id="nvg">
+                    <option value="Edge">
+                    <option value="Firefox">
+                    <option value="Chrome">
+                    <option value="Opera">
+                    <option value="Safari">
+                  </datalist>
+                <br>
+
+                <input type="range" id="a" name="a" value="50" >
+                <output name="x" for="a"></output><br>
+
+                <label id="mail">Email</label>
+                <input type="email" id="mail" name="mail">
+
+                <br><input type="submit" value="Envoyer">
+
+            </fieldset>
+        </form>
+    </body>
+</html>
