@@ -1,0 +1,73 @@
+<html>
+    <head>
+        <title>exemple</title>
+    </head>
+    <body>
+        <form>
+            <fieldset>
+                <legend><b>Vos Cordonnées</b></legend>
+
+                <table border="0">
+                    <tr>
+                        <td><label for="nom">Nom:</label>            </td>
+                        <td><input type="text" id="nom" name="nom" placeholder="votre nom" size="10"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="prenom">Prenom:</label>          </td>
+                        <td><input type="text" id="prenom" name="prenom" placeholder="votre prenom">      </td>
+                    </tr>
+                    <tr>
+                        <td><label for="date">Date de naissance:</label></td>
+                        <td><input type="date" ></td>
+                    </tr>
+                    <tr>
+                        <td><label for="mail">Mail:         </label></td>
+                        <td><input type="email" id="mail" name="mail" placeholder="votre mail" size="10"> <br>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="site">Votre site:</label></td>
+                        <td><input type="text" > <br></td>
+                    </tr> 
+                    <tr>
+                        <td rowspan="2">Genre :  </td>
+                        <td colspan="2"><input type="radio" id="genre" name="genre">Homme </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><input type="radio" id="genre" name="genre">Femme </td>
+                    </tr>
+                    <tr>
+                        <td><label for="pays">Pays:</label></td>
+                        <td><select name="liste">
+                                <option selected>Votre Pays</option>
+                                <option>tunis</option>
+                                <option>Ben Arous</option>
+                                <option>Nabel</option>
+                                <option>Sfax</option>
+                                <option>Djerba</option>
+                            </select></td>
+                    </tr>                 
+                </table>
+            </fieldset>
+            <fieldset>
+                <legend><b>Vos goûts</b></legend>
+                <input type="checkbox" id="choice" >Tarte aux fraises à la crémé d'amandes <br>
+                <input type="checkbox" id="choice" >Tarte aux prunes  <br>
+                <input type="checkbox" id="choice" >Tarte rustique aux mirabelles de Lorraine, noisettes et miel  <br>
+                <textarea name="choice" cols="49" rows="4">
+Decrivez vos gôuts en détail
+            </textarea>
+                <br>
+            </fieldset>
+            <fieldset>
+                <legend><b>Envoyez nous votre photo</b></legend>
+                <input type="file">
+                <br>
+                <br>
+                <input type="reset" value="Effacer">
+                <input type="submit" value="Envoyer">
+                <br>
+            </fieldset>
+        </form>
+    </body>
+</html>
