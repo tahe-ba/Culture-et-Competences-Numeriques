@@ -36,19 +36,32 @@
                     <tr>
                         <td colspan="2"><input type="radio" id="genre" name="genre">Femme </td>
                     </tr>
-                    <tr>
+                    <!--
+                        <tr>
                         <td><label for="pays">Pays:</label></td>
                         <td><select name="liste">
-                                <option selected>Votre Pays</option>
+                                <option disabled selected>Votre Pays</option>
                                 <option>tunis</option>
                                 <option>Ben Arous</option>
                                 <option>Nabel</option>
                                 <option>Sfax</option>
                                 <option>Djerba</option>
                             </select></td>
-                    </tr>                 
+                    </tr>   
+                    -->
+                    <tr>
+                        <td><label for="list">Pays:</label></td>
+                        <td><input list="pays" placeholder="votre pays"></td>
+                    </tr>    
                 </table>
             </fieldset>
+                <datalist id="pays">
+                    <option value="tunis">
+                    <option value="Ben Arous">
+                    <option value="Nabel">
+                    <option value="sfax">
+                    <option value="nabel">
+                </datalist>
             <fieldset>
                 <legend><b>Vos goûts</b></legend>
                 <input type="checkbox" id="choice" >Tarte aux fraises à la crémé d'amandes <br>
